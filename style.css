@@ -1,0 +1,67 @@
+body {
+    /* background: url(https://previews.123rf.com/images/saiyood/saiyood1609/saiyood160900309/62137465-blood-splatter-isolated-on-white-background-.jpg); */
+    background: url(https://i.pinimg.com/originals/94/9e/86/949e86d11b8b21a79a11fd1781a0573e.jpg);
+    width: 100%;
+    min-height: 900px;
+    background-size: cover;
+    z-index: -2;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+#header {
+    font-size: 40px;
+    color: #f32;
+    box-shadow: 0px 8px 20px 8px #000;
+    font-weight: 900;
+    padding: 0px 10px;
+}
+#header-1{
+    text-align: center;
+}
+.time div, time span {
+    font-size: 60px;
+}
+.timeinspan {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+.countdown {
+    width: 120px;
+    margin: auto;
+    text-align: center;
+}
+.time {
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.253);
+    box-shadow: 6px 5px 10px;
+}
+.time div {
+    color: rgb(0, 149, 92);
+    font-weight: 600;
+}
+#oxiri {
+    color: rgba(255, 255, 255, 0.322);
+    text-align: center;
+    margin-top: 30px;
+}
+#copy {
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+} 
+@media only screen and (max-width: 500px) {
+    body {
+        overflow: inherit;
+    }
+    #header {
+        font-size: 30px;
+    }
+    .time div, time span {
+        font-size: 45px;
+    }
+  }
